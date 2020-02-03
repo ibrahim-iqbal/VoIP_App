@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">VoIP App</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="call">CALL</string>
+    <string name="chat">CHAT</string>
+    <string name="profile">PROFILE</string>
+</resources>
