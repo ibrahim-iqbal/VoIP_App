@@ -5,228 +5,228 @@
     android:layout_height="match_parent"
     android:background="@drawable/bkg">
 
-<ImageView
-android:background="@android:color/transparent"
-android:id="@+id/imageView3"
-android:layout_height="100dp"
-android:layout_marginTop="84dp"
-android:layout_width="100dp"
-android:src="@drawable/ic_user"
-android:tint="@color/colorPrimary"
-app:layout_constraintBottom_toTopOf="@+id/linearLayout"
-app:layout_constraintEnd_toEndOf="parent"
-app:layout_constraintHorizontal_bias="0.501"
-app:layout_constraintStart_toStartOf="parent"
-app:layout_constraintTop_toTopOf="parent"
-app:layout_constraintVertical_bias="0.207" />
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="84dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_user"
+        android:tint="@color/colorPrimary"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.207" />
 
-<TextView
-android:id="@+id/recipient_id"
-android:layout_height="wrap_content"
-android:layout_marginTop="40dp"
-android:layout_width="wrap_content"
-android:text="TextView"
-android:textSize="24sp"
-app:layout_constraintEnd_toEndOf="parent"
-app:layout_constraintStart_toStartOf="parent"
-app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+    <TextView
+        android:id="@+id/recipient_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="TextView"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
-<TextView
-android:id="@+id/recipient_num"
-android:layout_height="wrap_content"
-android:layout_width="wrap_content"
-android:text="+1 234567890"
-android:textSize="20sp"
-app:layout_constraintEnd_toEndOf="parent"
-app:layout_constraintStart_toStartOf="parent"
-app:layout_constraintTop_toBottomOf="@+id/recipient_id" />
+    <TextView
+        android:id="@+id/recipient_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+1 234567890"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recipient_id" />
 
-<LinearLayout
-android:id="@+id/linearLayout"
-android:layout_height="wrap_content"
-android:layout_width="match_parent"
-android:orientation="vertical"
-android:paddingBottom="50dp"
-android:paddingEnd="50dp"
-android:paddingStart="50dp"
-android:paddingTop="50dp"
-app:layout_constraintBottom_toBottomOf="parent"
-app:layout_constraintEnd_toEndOf="parent"
-app:layout_constraintStart_toStartOf="parent">
-
-<LinearLayout
-    android:layout_height="70dp"
+    <LinearLayout
+    android:id="@+id/linearLayout"
+    android:layout_height="wrap_content"
     android:layout_width="match_parent"
-    android:weightSum="3">
+    android:orientation="vertical"
+    android:paddingBottom="50dp"
+    android:paddingEnd="50dp"
+    android:paddingStart="50dp"
+    android:paddingTop="50dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent">
 
-    <androidx.appcompat.widget.AppCompatImageButton
-        android:background="@android:color/transparent"
-        android:id="@+id/record"
-        android:layout_height="match_parent"
-        android:layout_marginEnd="50dp"
-        android:layout_weight="1"
-        android:layout_width="0dp"
-        android:padding="15dp"
-        android:src="@drawable/ic_radio"
-        android:tint="@color/colorPrimary" />
-
-    <androidx.appcompat.widget.AppCompatImageButton
-        android:background="@android:color/transparent"
-        android:id="@+id/hold"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:layout_width="0dp"
-        android:onClick="hold"
-        android:padding="15dp"
-        android:src="@drawable/ic_pause"
-        android:tint="@color/colorPrimary" />
-
-    <androidx.appcompat.widget.AppCompatImageButton
-        android:background="@android:color/transparent"
-        android:id="@+id/addcall"
-        android:layout_height="match_parent"
-        android:layout_marginStart="50dp"
-        android:layout_weight="1"
-        android:layout_width="0dp"
-        android:onClick="addcall"
-        android:padding="15dp"
-        android:src="@drawable/ic_plus"
-        android:tint="@color/colorPrimary" />
-
-
-</LinearLayout>
-
-<LinearLayout
-    android:baselineAligned="false"
-    android:layout_height="20dp"
-    android:layout_marginBottom="20dp"
-    android:layout_width="match_parent"
-    android:weightSum="3">
-
-    <TextView
-        android:gravity="center"
-        android:layout_height="match_parent"
-        android:layout_marginEnd="50dp"
-        android:layout_weight="1"
-        android:layout_width="0dp"
-        android:text="RECORD" />
-
-    <TextView
-        android:gravity="center"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:layout_width="0dp"
-        android:text="HOLD" />
-
-    <TextView
-        android:gravity="center"
-        android:layout_height="match_parent"
-        android:layout_marginStart="50dp"
-        android:layout_weight="1"
-        android:layout_width="0dp"
-        android:text="ADD CALL" />
-
-</LinearLayout>
-
-<LinearLayout
-    android:layout_height="70dp"
-    android:layout_width="match_parent"
-    android:weightSum="3">
-
-    <androidx.appcompat.widget.AppCompatImageButton
-        android:background="@android:color/transparent"
-        android:id="@+id/videoswitch"
-        android:layout_height="match_parent"
-        android:layout_marginEnd="50dp"
-        android:layout_weight="1"
-        android:layout_width="0dp"
-        android:onClick="videoswitch"
-        android:padding="15dp"
-        android:src="@drawable/ic_video"
-        android:tint="@color/colorPrimary" />
-
-    <androidx.appcompat.widget.AppCompatImageButton
-        android:background="@android:color/transparent"
-        android:id="@+id/mute"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:layout_width="0dp"
-        android:onClick="mute"
-        android:padding="15dp"
-        android:src="@drawable/ic_mute"
-        android:tint="@color/colorPrimary" />
-
-    <androidx.appcompat.widget.AppCompatImageButton
-        android:background="@android:color/transparent"
-        android:id="@+id/speaker"
-        android:layout_height="match_parent"
-        android:layout_marginStart="50dp"
-        android:layout_weight="1"
-        android:layout_width="0dp"
-        android:onClick="speaker"
-        android:padding="15dp"
-        android:src="@drawable/ic_speaker"
-        android:tint="@color/colorPrimary" />
-
-
-</LinearLayout>
-
-<LinearLayout
-    android:baselineAligned="false"
-    android:layout_height="20dp"
-    android:layout_marginBottom="20dp"
-    android:layout_width="match_parent"
-    android:weightSum="3">
-
-    <TextView
-        android:gravity="center"
-        android:layout_height="match_parent"
-        android:layout_marginEnd="50dp"
-        android:layout_weight="1"
-        android:layout_width="0dp"
-        android:text="VIDEO" />
-
-    <TextView
-        android:gravity="center"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:layout_width="0dp"
-        android:text="MUTE" />
-
-    <TextView
-        android:gravity="center"
-        android:layout_height="match_parent"
-        android:layout_marginStart="50dp"
-        android:layout_weight="1"
-        android:layout_width="0dp"
-        android:text="SPEAKER" />
-
-</LinearLayout>
-
-<LinearLayout
-    android:gravity="center"
-    android:layout_height="70dp"
-    android:layout_width="match_parent"
-    android:weightSum="4">
-
-    <androidx.cardview.widget.CardView
-        android:backgroundTint="#e71d1d"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:layout_width="0dp"
-        app:cardCornerRadius="50dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:weightSum="3">
 
         <androidx.appcompat.widget.AppCompatImageButton
-            android:background="@android:color/transparent"
-            android:id="@+id/endcall"
+            android:id="@+id/record"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_width="match_parent"
-            android:padding="10dp"
-            android:src="@drawable/ic_end"
-            android:tint="#eee" />
-    </androidx.cardview.widget.CardView>
+            android:layout_marginEnd="50dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:padding="15dp"
+            android:src="@drawable/ic_radio"
+            android:tint="@color/colorPrimary" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/hold"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:onClick="hold"
+            android:padding="15dp"
+            android:src="@drawable/ic_pause"
+            android:tint="@color/colorPrimary" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/addcall"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="50dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:onClick="addcall"
+            android:padding="15dp"
+            android:src="@drawable/ic_plus"
+            android:tint="@color/colorPrimary" />
 
 
-</LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginBottom="20dp"
+        android:baselineAligned="false"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="RECORD" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="HOLD" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="ADD CALL" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:weightSum="3">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/videoswitch"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="50dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:onClick="videoswitch"
+            android:padding="15dp"
+            android:src="@drawable/ic_video"
+            android:tint="@color/colorPrimary" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/mute"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:onClick="mute"
+            android:padding="15dp"
+            android:src="@drawable/ic_mute"
+            android:tint="@color/colorPrimary" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/speaker"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="50dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:onClick="speaker"
+            android:padding="15dp"
+            android:src="@drawable/ic_speaker"
+            android:tint="@color/colorPrimary" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginBottom="20dp"
+        android:baselineAligned="false"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="VIDEO" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="MUTE" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="SPEAKER" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:weightSum="4">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#e71d1d"
+            app:cardCornerRadius="50dp">
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/endcall"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:padding="10dp"
+                android:src="@drawable/ic_end"
+                android:tint="#eee" />
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
 
 </LinearLayout></androidx.constraintlayout.widget.ConstraintLayout>
