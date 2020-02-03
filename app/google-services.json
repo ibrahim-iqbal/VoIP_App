@@ -36,7 +36,7 @@
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "29356154772-0cu6ndo1rflbvfjqb304akt2gof4kqda.apps.googleusercontent.com",
+              "client_id": "29356154772-nni66tjhipu3h9nfbbb28q573snngchj.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
@@ -51,6 +51,14 @@
         }
       },
       "oauth_client": [
+        {
+          "client_id": "29356154772-3f9pcdvr7eatnk5dnk91iea3as50ofhe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.voipapp",
+            "certificate_hash": "318b1071f50ffd6239792c5bfb3c99af77c204f4"
+          }
+        },
         {
           "client_id": "29356154772-dsh7ko59s8gra01git3kjsnipb4j3ugs.apps.googleusercontent.com",
           "client_type": 1,
@@ -73,7 +81,7 @@
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "29356154772-0cu6ndo1rflbvfjqb304akt2gof4kqda.apps.googleusercontent.com",
+              "client_id": "29356154772-nni66tjhipu3h9nfbbb28q573snngchj.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
