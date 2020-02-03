@@ -1,0 +1,42 @@
+Index: app/google-services.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\r\n  \"project_info\": {\r\n    \"project_number\": \"29356154772\",\r\n    \"firebase_url\": \"https://fir-live-chat-4bf37.firebaseio.com\",\r\n    \"project_id\": \"fir-live-chat-4bf37\",\r\n    \"storage_bucket\": \"fir-live-chat-4bf37.appspot.com\"\r\n  },\r\n  \"client\": [\r\n    {\r\n      \"client_info\": {\r\n        \"mobilesdk_app_id\": \"1:29356154772:android:194ff2144796299147f981\",\r\n        \"android_client_info\": {\r\n          \"package_name\": \"com.example.firebaselivechat\"\r\n        }\r\n      },\r\n      \"oauth_client\": [\r\n        {\r\n          \"client_id\": \"29356154772-6mu6v64i7k9chev5i0a2a3i9ooviim57.apps.googleusercontent.com\",\r\n          \"client_type\": 1,\r\n          \"android_info\": {\r\n            \"package_name\": \"com.example.firebaselivechat\",\r\n            \"certificate_hash\": \"318b1071f50ffd6239792c5bfb3c99af77c204f4\"\r\n          }\r\n        },\r\n        {\r\n          \"client_id\": \"29356154772-0cu6ndo1rflbvfjqb304akt2gof4kqda.apps.googleusercontent.com\",\r\n          \"client_type\": 3\r\n        }\r\n      ],\r\n      \"api_key\": [\r\n        {\r\n          \"current_key\": \"AIzaSyCVmOFCoSNTy3K2LRTf6yXXMdOixjkdW7c\"\r\n        }\r\n      ],\r\n      \"services\": {\r\n        \"appinvite_service\": {\r\n          \"other_platform_oauth_client\": [\r\n            {\r\n              \"client_id\": \"29356154772-0cu6ndo1rflbvfjqb304akt2gof4kqda.apps.googleusercontent.com\",\r\n              \"client_type\": 3\r\n            }\r\n          ]\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"client_info\": {\r\n        \"mobilesdk_app_id\": \"1:29356154772:android:8260f8214ba2c31347f981\",\r\n        \"android_client_info\": {\r\n          \"package_name\": \"com.example.voipapp\"\r\n        }\r\n      },\r\n      \"oauth_client\": [\r\n        {\r\n          \"client_id\": \"29356154772-dsh7ko59s8gra01git3kjsnipb4j3ugs.apps.googleusercontent.com\",\r\n          \"client_type\": 1,\r\n          \"android_info\": {\r\n            \"package_name\": \"com.example.voipapp\",\r\n            \"certificate_hash\": \"b0217e216d4c10898ba0b38603d5b1bdaf2a3d45\"\r\n          }\r\n        },\r\n        {\r\n          \"client_id\": \"29356154772-0cu6ndo1rflbvfjqb304akt2gof4kqda.apps.googleusercontent.com\",\r\n          \"client_type\": 3\r\n        }\r\n      ],\r\n      \"api_key\": [\r\n        {\r\n          \"current_key\": \"AIzaSyCVmOFCoSNTy3K2LRTf6yXXMdOixjkdW7c\"\r\n        }\r\n      ],\r\n      \"services\": {\r\n        \"appinvite_service\": {\r\n          \"other_platform_oauth_client\": [\r\n            {\r\n              \"client_id\": \"29356154772-0cu6ndo1rflbvfjqb304akt2gof4kqda.apps.googleusercontent.com\",\r\n              \"client_type\": 3\r\n            }\r\n          ]\r\n        }\r\n      }\r\n    }\r\n  ],\r\n  \"configuration_version\": \"1\"\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/google-services.json	(revision 2e0dd8a307a1c81ae4d055f60eaf0fbb0393224d)
++++ app/google-services.json	(date 1580734756724)
+@@ -36,7 +36,7 @@
+         "appinvite_service": {
+           "other_platform_oauth_client": [
+             {
+-              "client_id": "29356154772-0cu6ndo1rflbvfjqb304akt2gof4kqda.apps.googleusercontent.com",
++              "client_id": "29356154772-nni66tjhipu3h9nfbbb28q573snngchj.apps.googleusercontent.com",
+               "client_type": 3
+             }
+           ]
+@@ -52,6 +52,14 @@
+       },
+       "oauth_client": [
+         {
++          "client_id": "29356154772-3f9pcdvr7eatnk5dnk91iea3as50ofhe.apps.googleusercontent.com",
++          "client_type": 1,
++          "android_info": {
++            "package_name": "com.example.voipapp",
++            "certificate_hash": "318b1071f50ffd6239792c5bfb3c99af77c204f4"
++          }
++        },
++        {
+           "client_id": "29356154772-dsh7ko59s8gra01git3kjsnipb4j3ugs.apps.googleusercontent.com",
+           "client_type": 1,
+           "android_info": {
+@@ -73,7 +81,7 @@
+         "appinvite_service": {
+           "other_platform_oauth_client": [
+             {
+-              "client_id": "29356154772-0cu6ndo1rflbvfjqb304akt2gof4kqda.apps.googleusercontent.com",
++              "client_id": "29356154772-nni66tjhipu3h9nfbbb28q573snngchj.apps.googleusercontent.com",
+               "client_type": 3
+             }
+           ]
